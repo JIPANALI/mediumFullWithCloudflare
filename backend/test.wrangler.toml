@@ -1,0 +1,6 @@
+DATA_BASE_CONNECTION_POOL_URL=""
+JWT_SECRET=""
+
+// DATA_BASE_CONNECTION_POOL_URL this is the connectionn pool using prisma accelerate.
+give your any JWT_SECRET string.
+copy to wrangler.toml

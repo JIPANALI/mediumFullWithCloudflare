@@ -1,0 +1,17 @@
+1. npm init -y
+2. npx tsc --init
+3. tsconfig: rootDir to src, outDir  to dist, change declaration true=>also do type which have only declaration not defination ts=>index.d.ts in dist, js
+
+4. in common npm i zod so zod validation will part of this
+5. whatever we want to write src/index.ts here we will declare the defination whatever we want to like zod validation here 
+6. here we are not using monorepo .here we will using the npm uplaod to npm
+7. in package.json in common folder name we will change unique like here we will give "name":"@metavy/medium-jip-common" and 
+give which file you want to upload on to npm account means which program in package.json tell taht "main":"dist/index.js
+8.tsc -b for compile
+9. npm login //open the link and authorized otp of npm account 
+10. .npmignore in common folder and in the .npmignore we will put src folder so it will not upload to npm upload
+11. npm publish for th epaid account of npm which will be in private and for me like free so it will be in public =>
+npm publish --access public
+
+12. here @metavy/medium-jip-common after insatlll this can insatlll in any where like front end and backend => npm i @metavy/medium-jip-common
+13. 

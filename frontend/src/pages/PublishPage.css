@@ -1,0 +1,20 @@
+.publishpage{
+    min-height: 100vh;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.publishpage-container{
+    width: 50%;
+    /* background: rgb(12, 12, 12); */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+.signup-bg{
+    height: 100vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.signupleft{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.signupright{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
